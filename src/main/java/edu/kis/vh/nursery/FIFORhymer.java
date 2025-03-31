@@ -6,6 +6,7 @@ public class FIFORhymer extends DefaultCountingOutRhymer {
 
     @Override
     public int countOut() {
+        // TODO: Petla do osobnej metody
         while (!callCheck())
             temp.countIn(super.countOut());
 
