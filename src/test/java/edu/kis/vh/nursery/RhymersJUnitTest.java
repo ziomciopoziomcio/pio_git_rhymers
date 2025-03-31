@@ -76,3 +76,5 @@ public class RhymersJUnitTest {
     }
 
 }
+
+// testy przechodza
