@@ -38,4 +38,19 @@ public class IntLinkedList {
         return ret;
     }
 
+    static class Node {
+
+        public final int value;
+        protected Node prev, next;
+
+        public Node(int i) {
+            value = i;
+        }
+
+        public int getValue() {
+            return value;
+        }
+
+    }
+
 }
